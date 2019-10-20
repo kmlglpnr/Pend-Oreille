@@ -7,3 +7,6 @@ Each Observation in the data includes several variables, date, time, air tempera
 # Goals
 * Returning a coefficient of the slope of the barometric pressure between beginning date and time and endindg date and time.
 * Based on coefficients generate a graph that makes easier to interpret the weather.
+
+# Challanges
+* Proper parsing and processing of large data files

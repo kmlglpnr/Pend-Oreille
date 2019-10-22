@@ -37,7 +37,7 @@ public class BPTrend {
                     wordsArray = line.split("\t");
                     // desired fields from input text and WeatherEntry instance
                     WeatherEntry entry = new WeatherEntry();
-                    entry.when = format.parse(wordsArray[1]);
+                    entry.when = format.parse(wordsArray[0]);
                     entry.pressure = Float.valueOf(wordsArray[2]);
                     entry.humidity = Float.valueOf(wordsArray[4]);
                     collectedData.add(entry);

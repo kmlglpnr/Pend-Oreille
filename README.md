@@ -1,4 +1,4 @@
-# Pond-Oreille
+# Pend-Oreille
 This Project is a weather data captured from Lake Pend Oreille in northern Idaho. 
 There is almost 20 megabytes of data from the years 2012 through 2015. 
 

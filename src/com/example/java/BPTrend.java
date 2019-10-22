@@ -123,6 +123,11 @@ public class BPTrend {
 
         System.out.println(calcTrend.doSlopeCalculation(from, to));
 
+        System.out.println("Test Case #2: ");
+        from = "2013/03/15 10:30:00";
+        to = "2013/03/17 02:30:00";
+
+        System.out.println(calcTrend.doSlopeCalculation(from, to));
 
     }
 
